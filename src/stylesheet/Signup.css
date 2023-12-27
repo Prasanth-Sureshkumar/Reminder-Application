@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.Singup {
+    margin: 0;
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    background-image:url('../image/singupgif.gif');
+    background-repeat: no-repeat;
+}
+
+.sign_header {
+    font-family: 'Rubik Doodle Shadow';
+    color:#ec4b23;
+    height:40px;
+    justify-self: center;
+    margin-top: 150px;
+    margin-left: 900px;
+    margin-right: 100px;
+    text-align: center;
+    background-color:transparent; 
+}
+
+.input_sign {
+    border: 1px solid black;
+    margin-top:30px;
+    border-radius:20px;
+    margin-left:40px;
+    width:400px;
+    height:60px;
+    background:rgba(254, 253, 253, 0.793);
+}
+
+.register_button_signup {
+    width:100px;
+    height: 40px;
+    margin-top: 40px;
+    border: 2px solid black;
+    background:rgba(254, 253, 253, 0.793);
+    margin-left: 190px;
+    border-radius:20px;
+    margin-bottom: 30px;
+}
+
+.register_button_signup:hover,.sign_input_grid,.input_sign:hover {
+    box-shadow:0px 5px 10px 7px rgba(202, 16, 97, 0.858) ;
+}
+
+.sign_input_grid {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-right:100px;
+    margin-left: 900px;
+    padding: 5px;
+    border-radius: 20px;
+    background:linear-gradient(brown,pink);
+}
+
+.logout_button_signup {
+    flex-shrink: 1;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -520px;
+    margin-left: 1450px;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+.Login {
+    width:100vw;
+    height:100vh;
+    background-image: url("../image/Loginbackground.jpg");
+    background-size: cover;
+    background-repeat:no-repeat; 
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.login_header {
+    font-family: 'Rubik Doodle Shadow';
+    filter: drop-shadow(0 0 0.75rem darkblue);
+    margin-top: 150px;
+    margin-left: 525px;
+    margin-right: 525px;
+    text-align: center;
+    background-color:transparent; 
+}
+
+.login_division {
+    width: 470px;
+    height: 250px;
+    background-color: rgba(250, 250, 250, 0.692);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.input_Login {
+    border: 1px solid black;
+    margin-top:30px;
+    border-radius:5px;
+    margin-left: 30px;
+    border-radius: 20px;
+    width:400px;
+    height:40px;
+    background:rgba(254, 253, 253, 0.877);
+}
+
+.forgot {
+    width: 150px;
+    height: 30px;
+    margin-top: 2%;
+    border: 0cap;
+    color:black;
+    background:transparent;
+    margin-left: 300px;
+}
+
+.login_button {
+    width:120px;
+    height: 35px;
+    margin-top: 25px;
+    border: 2px solid black;
+    background:rgba(254, 253, 253, 0.793);
+    margin-left: 85px;
+    border-radius:20px;
+}
+
+.Sign_button {
+    width:145px;
+    height: 35px;
+    margin-top: 24px;
+    border: 2px solid black;
+    background:rgba(254, 253, 253, 0.793);
+    position: absolute;
+    margin-left: 20px;
+    border-radius:20px;
+    flex: 1 1 auto;
+}
+
+
+.forgot:hover {
+    box-shadow:0px 5px 10px 7px rgba(57, 57, 251, 0);
+}
+
+.Sign_button:hover,.login_division,.login_button:hover,.input_Login:hover{
+    box-shadow:0px 5px 7px 7px rgba(57, 57, 251, 0.595);
+}

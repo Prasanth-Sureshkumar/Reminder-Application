@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.Forgotpassword {
+    margin: 0;
+    width:100%;
+    height:100vh;
+    position: absolute;
+    background: radial-gradient(pink,purple);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.forgot_password_header {
+    font-family: 'Rubik Doodle Shadow';
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 930px;
+    text-align: center;
+    background-color:transparent; 
+}
+
+.input_feild_forgotpassword {
+    border: 1px solid black;
+    margin-top:50px;
+    border-radius:20px;
+    margin-left:50px;
+    width:400px;
+    height:40px;
+    background:rgba(254, 253, 253, 0.793);
+}
+
+.register_button_forgotpassword {
+    width:100px;
+    height: 30px;
+    margin-top: 60px;
+    border: 2px solid black;
+    background:rgba(254, 253, 253, 0.793);
+    margin-left: 190px;
+    border-radius:20px;
+    margin-bottom: 30px;
+}
+
+
+.background_gif_forgotpassword {
+    position:absolute;
+    border-radius: 10%;
+    width: 450px;
+    height: 450px;
+    margin-left: 825px;
+    margin-top:-475px;
+}
+
+.forgot_password_inputgrid {
+    padding: 10px;
+    margin-right:900px;
+    margin-left: 100px;
+    border-radius: 20px;
+    background:linear-gradient(white,purple);
+}
+
+.homebutton_forgotpassword {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -580px;
+    margin-left: 1400px;
+}
+
+.forgot_password_inputgrid,.input_feild_forgotpassword:hover,.register_button_forgotpassword:hover{
+    box-shadow:0px 5px 10px 7px rgba(210, 22, 223, 0.752) ;
+}
+
+.background_gif_forgotpassword{
+    filter: drop-shadow(0 0 0.75rem white);
+}
